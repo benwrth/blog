@@ -11,7 +11,7 @@ layout: home
         <img src="/assets/ben.jpg" class="profile-image">
       </td>
       <td class="post-table" width="75vw">
-      I'm Ben, a {{- site.age | escape -}}-year-old college student with a passion for tech and the IT industry.
+      I'm Ben, a  {{- site.age | escape -}}-year-old college student with a passion for tech and the IT industry.
       </td>
       </tr>
   </table>
