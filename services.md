@@ -8,7 +8,7 @@ Here you can find a list of all the services I offer. If you see something that 
 
 This page will be deprecated at the beginning of 2024. As part of my Computer Science NEA, I am constructing my very own services website at byWRTH.com. Read more [here](/blog/).
 <div>
-<a href="/web-design/">
+<a href="/web-design">
 <div class="info-box post-list">
     <p class="info-box-title">WEB DESIGN</p>
     <p class="info-box-content">Get a professional looking site from Ben Worthington! I offer many different types of site that can be suited to every need - find out more about the different types on the dedicated page.</p>
