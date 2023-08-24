@@ -2,7 +2,8 @@
 layout: post
 title:  "Plans for a new service site: byWRTH"
 date:   2023-08-24 00:00:00 +0100
-categories: site
+category: Site Updates
+tags: bywrth update newsite benwrth
 ---
 
 Good Morning (or Afternoon)! As you may have noticed, there is a small message on my surrent service page. It will be deprecated. Obviously, this isnt quite as important as your favourite package being abandoned and becoming deprecated - but its a change nonetheless.
