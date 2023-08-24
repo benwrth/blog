@@ -6,7 +6,7 @@ permalink: /services
 
 Here you can find a list of all the services I offer. If you see something that takes your fancy, feel free to have a read over it and get in touch.
 
-This page will be deprecated at the beginning of 2024. As part of my Computer Science NEA, I am constructing my very own services website at byWRTH.com. Read more [here](site/plans-for-bywrth).
+This page will be deprecated at the beginning of 2024. As part of my Computer Science NEA, I am constructing my very own services website at byWRTH.com. Read more [here](site%20updates/plans-for-bywrth/).
 <div>
 <a href="/web-design">
 <div class="info-box post-list">

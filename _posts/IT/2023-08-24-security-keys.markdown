@@ -16,7 +16,9 @@ Due to the way they authenticate with each different website, they stop phishing
 
 ## How do they work?
 There are many different standards these small devices support, but the most popular is U2F (Universal Second Factor).
+
 ![U2F Diagram](https://images.pingidentity.com/image/upload/f_auto,q_auto,w_auto,c_scale/ping_dam/content/dam/ping-6-2-assets/blogs/2021/0513/FIDO-03.jpg)
+
 Above shows a simplified diagram of how this standard works. One you have entered your username/password, the service sends a 'challenge' to the security key. Once it has received the challenge, it processes it and digitally signs it in a way which proves that it was done by the authorised security key. After that, it sends back the challenge and you gain access to the service!
 
 ## The YubiKey
