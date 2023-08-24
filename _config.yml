@@ -23,7 +23,7 @@ email: ben@wrth.me
 description: >- # this means to ignore newlines until "baseurl:"
   Occasional posts about cool tech and info about myself.
 footertext: Made with ❤️ in Cheshire, UK
-github_repo: benwrth/website
+github_repo: benwrth/blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: benwrth
