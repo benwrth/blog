@@ -11,14 +11,16 @@ This page will be deprecated at the beginning of 2024. As part of my Computer Sc
 <a href="/web-design">
 <div class="info-box post-list">
     <p class="info-box-title">WEB DESIGN</p>
-    <p class="info-box-content">Get a professional looking site from Ben Worthington! I offer many different types of site that can be suited to every need - find out more about the different types on the dedicated page.</p>
+    <p class="info-box-content">Get a professional quality website for a fraction of the price you'd normally have to pay. I offer creation of websites using WordPress and also a custom static site, depending on your use case. Click for more info.
+</p>
 </div>
 </a>
 
-<a href="/3d-printing">
+<a href="mailto:ben@wrth.me?subject=3D Printing Quote">
 <div class="info-box post-list">
     <p class="info-box-title">3D PRINTING</p>
-    <p class="info-box-content">I love 3D pringting so much I dedcided to offer it as a service. Send me an email with your files attached and I'll get back to you with a price and time estimate. You'll usually have a package at your door within 7 days (**UK Only**).</p>
+    <p class="info-box-content">I love 3D printing so much I decided to offer it as a service. Send me an email with your files attached and I'll get back to you with a price and time estimate. You'll usually have a package at your door within 7 days (<strong>UK Only</strong>). Click to get in touch.
+    </p>
 </div>
 </a>
 
