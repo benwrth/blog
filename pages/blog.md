@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog
 ---
 
-I occasionally write some blog posts - and you can find all of them authored by myself below. Enjoy! This is a relatively new thing so I may update the site to support things such as search if thing get a little cluttered. [Click here to filter posts by category](/blog/categories).
+I occasionally write some blog posts - and you can find all of them authored by myself below. Enjoy! This is a relatively new thing so I may update the site to support things such as search if things get a little cluttered. [Click here to filter posts by category](/blog/categories).
 
 
 <div class="info-box">

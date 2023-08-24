@@ -2,7 +2,6 @@
 layout: post
 title:  "Ditch your stone age password! Security keys and new technology"
 date:   2023-08-24 00:00:01 +0100
-category: IT
 tags: IT security 2fa fido yubikey
 ---
 ![Security Keys scattered over a desk](https://cdn.thewirecutter.com/wp-content/media/2021/12/securitykeys-2048px-0S1A8238.jpg?auto=webp&quality=60&crop=1.91:1&width=1200)

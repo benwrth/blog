@@ -2,7 +2,6 @@
 layout: post
 title:  "Plans for a new service site: byWRTH"
 date:   2023-08-24 00:00:00 +0100
-category: Site Updates
 tags: bywrth update newsite benwrth
 ---
 
