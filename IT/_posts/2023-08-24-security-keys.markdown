@@ -4,7 +4,7 @@ title:  "Ditch your stone age password! Security keys and new technology"
 date:   2023-08-24 00:00:01 +0100
 tags: IT security 2fa fido yubikey
 ---
-![Security Keys scattered over a desk](https://cdn.thewirecutter.com/wp-content/media/2021/12/securitykeys-2048px-0S1A8238.jpg?auto=webp&quality=60&crop=1.91:1&width=1200)
+![Security Keys scattered over a desk](/assets/blog/Unsplash-Yubikey.jpg)
 
 I have long been an admirer of the benefits hardware-backed security keys give you. Being able to physically hold they key to some of your most important online accounts is not only an amazing thing to think about, but an amazing thing for security too. I'm not saying that standard TOTP codes are bad, but there's still a one-in-a-million chance that a computer could guess the code right - and if the service hasn't implemented a restriction on the number of times a code can be guessed, its just a waiting game.
 
@@ -16,7 +16,7 @@ Due to the way they authenticate with each different website, they stop phishing
 ## How do they work?
 There are many different standards these small devices support, but the most popular is U2F (Universal Second Factor).
 
-![U2F Diagram](https://images.pingidentity.com/image/upload/f_auto,q_auto,w_auto,c_scale/ping_dam/content/dam/ping-6-2-assets/blogs/2021/0513/FIDO-03.jpg)
+![U2F Diagram](/assets/blog/FIDO-Diagram.png)
 
 Above shows a simplified diagram of how this standard works. One you have entered your username/password, the service sends a 'challenge' to the security key. Once it has received the challenge, it processes it and digitally signs it in a way which proves that it was done by the authorised security key. After that, it sends back the challenge and you gain access to the service!
 
