@@ -150,9 +150,8 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-dark;
-  border-radius: 3px;
-  background-color: #2c2c2c;
+  border-radius: 10px;
+  background-color: $secondary-background;
 }
 
 code {
@@ -248,13 +247,13 @@ table {
   border: 1px solid $grey-color-dark;
   border-radius: 10px;
   tr {
-      background-color: #2c2c2c;
+      background-color: $secondary-background;
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: #2c2c2c;
+    background-color: $secondary-background;
     border: 1px solid darken($grey-color-dark, 4%);
   }
   td {
