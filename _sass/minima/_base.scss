@@ -301,30 +301,3 @@ table {
   margin: 0px !important;
   padding: 0px !important;
 }
-
-.cv-name {
-  font-weight: 800;
-  @include relative-font-size(1.75);
-}
-
-.cv-card {
-  text-align: center;
-}
-
-.cv-profile-image {
-  padding-top: 15px;
-  border-radius: 50% !important;
-  @media screen  and (min-width: 601px){
-    width: 15vw;
-  }
-  @media screen  and (max-width: 600px){
-    width: 50vw;
-  }
-}
-
-.cv-hr {
-  width: 90%;
-  margin-left: 5%;
-  margin-bottom: 15px;
-  color: $grey-color-dark;
-}
