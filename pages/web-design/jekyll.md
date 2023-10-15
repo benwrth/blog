@@ -6,19 +6,19 @@ permalink: /web-design/jekyll
 
 Jekyll is a small but powerful CMS which is focussed towards blogging. Typically, web pages are made in a language called **HTML** - wether coded or by using a drag-and-drop editor. With Jekyll, you create a '**Markdown**' file for each post. It's like the familiar '*.txt*' file, however has some formatting options that the Jekyll generator understands when turning your Markdown into website-ready HTML.
 
-*Italic* text can be done by wrapping a word in single asterisks
-```md
+*Italic* text can be done by wrapping a word in single asterisks:
+```
 *Like This!*
 ```
 
-**Bold** text can be done by wrapping a word in double asterisks
-```md
+**Bold** text can be done by wrapping a word in double asterisks:
+```
 **Like This!**
 ```
 
-***Bold and Italic*** (!) text can be done by wrapping a word in triple asterisks
-```md
-***Like This!*** 
+***Bold and Italic*** (!) text can be done by wrapping a word in triple asterisks:
+```
+***Like This!***
 ```
 
 There are many more options too - and all of them are really easy to remember and fast to type.
