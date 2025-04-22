@@ -4,13 +4,15 @@ title: About
 permalink: /about
 ---
 
-Hey there, I'm Ben, a {{site.age}}-year-old college student from Cheshire, England. Right now at college, I'm studying Computer Science, DT and Physics - with hopes of entering either the computing or engineering fields one day.
+Hey there, I'm Ben, an {{site.age}}-year-old from Cheshire, England. I recently finished college in 2024, where I studied Computer Science, DT and Physics – and now I'm aiming to pursue a career in either the computing or travel industries, with a particular interest in rail.
 
-I am greatly interested in (and enjoy) developing for the web and making it a better place. Right now, I am more focussed on frontend development - however I am currently learning some backend languages which will help me expand my abilities. My attention to detail is something which I like to pride myself in when making sites - not a single small thing can be incorrect! As well as the internet, 3D printing is another thing I have huge interest in - with half of my work area on my desk being taken up by a 3D printer, I can't not take a liking to it! In fact, I enjoy these two things so much that I offer both as a service, you can find out more on the [services](/services) page.
+I have a strong passion for developing for the web and finding ways to make it a more polished, accessible place. Right now, I'm mainly focused on frontend development – though I'm also picking up some backend languages to round out my skills. When building something, I take pride in attention to detail – every button, image and piece of text has to be just right. Away from the screen, 3D printing is something I really enjoy too. It's hard not to get hooked when half your desk is taken up by a printer 'quietly' buzzing away.
 
-When not struggling to make a website or 3D printer function, I just can't turn down a bike ride through the beautiful British countryside (although I usually end up with a puncture or two!), or making small projects with my friends - both digital (like modded game servers) and physical (such as an engine-powered pedal bike).
+Alongside the internet, I also enjoy traveling the country on the rail network with my friends. In fact, I enjoy it so much, it's where most of my effort in career finding is going! Being out in the sun for work every day sounds like a steal to me!
 
-Kayaking and Paddleboarding are also great interests of mine. I spend a lot of time on my local waterways, heading between towns and back with a friend for some company. While mainly touring, heading to the coast and doing some sea kayaking is also a favourite. There's nothing like surfing in a kayak!
+When I’m not tweaking websites or printing little gimmicks, you’ll probably find me out on a bike ride through the countryside (usually with a puncture kit in my pocket!), or working on small projects with friends – both physical builds and digital stuff like modded game servers.
+
+Kayaking and Paddleboarding are also great interests of mine. I spend a lot of time on my local waterways, heading between towns and back with a friend for some company. While mainly touring, heading to the coast and doing some sea kayaking is also a favourite. There's nothing like _surfing_ in a kayak!
 
 Back in 2020, I was lucky enough to be selected for one of 10 spots on a sail boat race from the bottom to the top of England. Organised by Cheshire Police and other competing forces (who each have their own boat and team), it was an absolutely amazing opportunity for myself and all other participants to build our skills on the week long journey at sea. Taking place in October 2022, Team Cheshire (while not quite making it the full distance) won the race to our destination!
 
