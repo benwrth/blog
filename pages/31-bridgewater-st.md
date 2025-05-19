@@ -31,10 +31,10 @@ Existing tenants are all male so bear this in mind when considering this propert
   <style>
     .gallery-container {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 5px;
       width: 100%;
-      height: 100%;
+      max-width: 100vw;
     }
 
     .gallery-container img {
@@ -42,12 +42,6 @@ Existing tenants are all male so bear this in mind when considering this propert
       height: auto;
       display: block;
       cursor: pointer;
-    }
-
-    @media (max-width: 600px) {
-      .gallery-container {
-        grid-template-columns: 1fr;
-      }
     }
 
     .overlay {
@@ -60,21 +54,23 @@ Existing tenants are all male so bear this in mind when considering this propert
       align-items: center;
       justify-content: center;
       z-index: 9999;
+      overflow: hidden;
     }
 
     .overlay img {
       max-width: 90vw;
       max-height: 90vh;
+      transition: transform 0.3s ease;
     }
   </style>
 
   <div class="gallery-container">
-    <img src="/assets/house/front.jpeg" onclick="showOverlay(this.src)">
-    <img src="/assets/house/kitchen.jpeg" onclick="showOverlay(this.src)">
-    <img src="/assets/house/living.jpeg" onclick="showOverlay(this.src)">
-    <img src="/assets/house/terrace.jpeg" onclick="showOverlay(this.src)">
-    <img src="/assets/house/bedroom.jpeg" onclick="showOverlay(this.src)">
-    <img src="/assets/house/bathroom.jpeg" onclick="showOverlay(this.src)">
+    <img src="/assets/house/front.jpeg" onclick="showOverlay(0)">
+    <img src="/assets/house/kitchen.jpeg" onclick="showOverlay(1)">
+    <img src="/assets/house/living.jpeg" onclick="showOverlay(2)">
+    <img src="/assets/house/terrace.jpeg" onclick="showOverlay(3)">
+    <img src="/assets/house/bedroom.jpeg" onclick="showOverlay(4)">
+    <img src="/assets/house/bathroom.jpeg" onclick="showOverlay(5)">
   </div>
 
   <div class="overlay" onclick="hideOverlay()" id="imgOverlay">
@@ -82,12 +78,49 @@ Existing tenants are all male so bear this in mind when considering this propert
   </div>
 
   <script>
-    function showOverlay(src) {
-      document.getElementById('overlayImg').src = src;
+    const images = [
+        "/assets/house/front.jpeg",
+        "/assets/house/kitchen.jpeg",
+        "/assets/house/living.jpeg",
+        "/assets/house/terrace.jpeg",
+        "/assets/house/bedroom.jpeg",
+        "/assets/house/bathroom.jpeg"
+    ];
+
+    let currentIndex = 0;
+
+    function showOverlay(index) {
+      currentIndex = index;
+      document.getElementById('overlayImg').src = images[index];
       document.getElementById('imgOverlay').style.display = 'flex';
     }
+
     function hideOverlay() {
       document.getElementById('imgOverlay').style.display = 'none';
     }
+
+    // Swipe support
+    let startX = 0;
+
+    document.getElementById('imgOverlay').addEventListener('touchstart', function(e) {
+      startX = e.touches[0].clientX;
+    });
+
+    document.getElementById('imgOverlay').addEventListener('touchend', function(e) {
+      const endX = e.changedTouches[0].clientX;
+      const diffX = endX - startX;
+
+      if (Math.abs(diffX) > 50) {
+        if (diffX > 0) {
+          // Swipe right - previous
+          currentIndex = (currentIndex - 1 + images.length) % images.length;
+        } else {
+          // Swipe left - next
+          currentIndex = (currentIndex + 1) % images.length;
+        }
+        document.getElementById('overlayImg').src = images[currentIndex];
+      }
+    });
   </script>
 </div>
+
