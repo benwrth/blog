@@ -13,8 +13,6 @@ permalink: /31-bridgewater-st
 </a>
 </div>
 
-![Front of Property](/assets/house/front.jpeg)
-
 This is a room 6 bed property located in the Baltic Triangle area of Liverpool City Centre! The property spans 5 floors, the middle 3 floors housing 2 bedrooms and a full size bathroom each. As well as this, there’s a whole floor for the open kitchen-living space complete with a Juliet balcony for views of the beautiful waterfront. Above that, there’s a private rooftop terrace that’s only accessible by members of the household.
 
 I’m unfortunately leaving at the end of first year due to a career opportunity that has come up. I know all of the existing housemates well, and they’re a good group of people with varying tastes. If you’re someone who’d enjoy going out then prepare for some exciting nights! This property is also just a couple streets away from Kitchen St. so if you’re a fan of baseline you’re covered! Alternatively, there’s another subset of flatmates who enjoy having the night in a spending their time relaxing or keeping on top of assignments - and they’d enjoy your company too.
